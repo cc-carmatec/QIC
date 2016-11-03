@@ -9617,3 +9617,59 @@ a.send-email,.send-email{
 	width: 14px;
 	height: 14px;
 }
+/*Harish css for Why us*/
+.why-us-section .panel {
+    border-color: #e6e6ea;
+    border-style: solid;
+    border-width: 0 0 0 1px;
+    box-shadow: none;
+}
+.why-us-section .section-privacy-policy {
+    padding: 45px 0;
+    background: rgba(0, 0, 0, 0) url("../images/bg_shadow.png") no-repeat scroll center bottom;
+}
+.section-privacy-policy h1 {
+    color: #a60e4b;
+    font-size: 46px;
+    font-weight: 100;
+    margin-top: 0px;
+     font-family: "Roboto regular";
+}
+.why-us-panel .privacy-policy-list h5 {
+    color: #4362A2;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 25px;
+    position: relative;
+    text-transform: uppercase;    
+}
+.why-us-panel .privacy-policy-list p {
+    color: #747474;
+    font-size: 14px;
+    line-height: 1.4em;
+    margin-left: 25px;
+}
+.why-us-no {
+    background: #ffffff none repeat scroll 0 0;
+    border-radius: 100%;
+    box-shadow: 0 0 15px #a2a2a2;
+    color: #4362a2;
+    font-size: 16px;
+    height: 40px;
+    left: -75px;
+    line-height: 40px;
+    position: absolute;
+    text-align: center;
+    top: 8px;
+    vertical-align: middle;
+    width: 40px;
+    font-weight: bold;
+}
+.why-us-panel .privacy-policy-list p span {
+    color: #367CDE;
+}
+@media (max-width:768px){
+	.why-us-section .panel {
+     margin-left: 20px;
+	}
+}
